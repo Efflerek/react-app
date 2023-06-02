@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Hero from './components/Hero/Hero'
+import SearchForm from './components/SearchForm/SearchForm'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Hero />
+      <SearchForm />
     </div>
   );
-}
+};
 
 export default App;
+
+//    <div>
+//<div>
+//<h1>My first React App</h1>
+//<p>A simple to-do app, with lists, columns and card</p>
+///</div>
+//<form>
+//<input type="text" />
+//<button>Search</button>
+//</form>
+//</div>
+//`;
+//};
+////
