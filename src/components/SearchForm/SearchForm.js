@@ -5,11 +5,13 @@ import Button from '../Button/Button';
 const SearchForm = () => {
     return (
         <form className={styles.searchForm}>
-            <TextInput placeholder="Search..." /> {/* Use double quotes for attribute values */}
-            <Button text="Search" />
+            <TextInput placeholder="Search..." />
+            <Button>
+                <span className="fa fa-search" />
+            </Button>
         </form>
     );
-};
+  };
 
 export default SearchForm;
 
