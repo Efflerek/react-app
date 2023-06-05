@@ -5,7 +5,8 @@ import { useState } from 'react';
 import shortid from 'shortid';
 const List = () => {
 
-const [columns, setColumns] = useState([
+
+  const [columns, setColumns] = useState([
     { id: 1, title: 'Books', icon: 'book' },
     { id: 2, title: 'Movies', icon: 'film' },
     { id: 3, title: 'Games', icon: 'gamepad' }
@@ -73,5 +74,5 @@ const [columns, setColumns] = useState([
 
     </div>
   );
-  };
+};
 export default List;
