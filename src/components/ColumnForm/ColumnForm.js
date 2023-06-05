@@ -1,4 +1,3 @@
-import styles from './ColumnForm.module.scss';
 import { useState } from 'react';
 
 const ColumnForm = props => {
