@@ -1,4 +1,4 @@
-/*import styles from './ColumnForm.module.scss';*/
+import styles from './ColumnForm.module.scss';
 import Button from './Button/Button'
 import { useState } from 'react';
 
