@@ -7,6 +7,9 @@ const Column = ({ title, icon }) => {
                 <span className={`${styles.icon} fa fa-${icon}`}></span>
                 {title}
             </h2>
+            <ul className={styles.cards}>
+                {props.cards.map(card => <li key={card.id}>{card.title}</li>)}
+            </ul>
         </article>
     );
 };
