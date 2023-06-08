@@ -19,3 +19,14 @@ const Column = props => {
 
 export default Column;
 
+//ALTERNATYWA
+//const Column = ({ children }) => {
+   // return (
+//<article className={styles.column}>
+//<h2 className={styles.title}>{children}</h2>
+//</article>
+//);
+//};
+
+//export default Column;
+
