@@ -1,19 +1,9 @@
-import { createStore, combineReducers } from 'redux';
+import { createStore } from 'redux';
 import initialState from './initialState';
-import shortid from "shortid";
-import listsReducer from './listsReducer';
-import columnsReducer from './columnsReducer';
-import cardsReducer from './cardsReducer';
-import searchStringReducer from './searchStringReducer';
 
-const subreducers = {
-  lists: listsReducer,
-  columns: columnsReducer,
-  cards: cardsReducer,
-  searchString: searchStringReducer
-}
-
-const reducer = combineReducers(subreducers);
+const reducer = (state, action) => {
+  return state;
+};
 
 const store = createStore(
   reducer,
