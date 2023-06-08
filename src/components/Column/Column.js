@@ -12,21 +12,10 @@ const Column = props => {
       <ul className={styles.cards}>
         {cards.map(card => <Card key={card.id} title={card.title} />)}
       </ul>
-      <CardForm columnId={props.id} action={props.action} />
+      <CardForm columnId={props.id} />
     </article>
   );
 };
 
 export default Column;
-
-//ALTERNATYWA
-//const Column = ({ children }) => {
-   // return (
-//<article className={styles.column}>
-//<h2 className={styles.title}>{children}</h2>
-//</article>
-//);
-//};
-
-//export default Column;
 
