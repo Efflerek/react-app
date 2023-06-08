@@ -5,8 +5,7 @@ import { useState } from 'react';
 import shortid from 'shortid';
 const List = () => {
 
-  const columns = useSelector(state => state.columns);
-  
+
   const [columns, setColumns] = useState([
     {
       id: 1,
